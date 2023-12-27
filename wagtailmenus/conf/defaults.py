@@ -26,15 +26,15 @@ USE_CONDENSEDINLINEPANEL = True
 # Default templates and template finder settings
 # ----------------------------------------------
 
-DEFAULT_CHILDREN_MENU_TEMPLATE = 'menus/children_menu.html'
+DEFAULT_MAIN_MENU_TEMPLATE = 'menus/menu_principal.html'
 
-DEFAULT_FLAT_MENU_TEMPLATE = 'menus/flat_menu.html'
+DEFAULT_FLAT_MENU_TEMPLATE = 'menus/menu_secondaire.html'
 
-DEFAULT_MAIN_MENU_TEMPLATE = 'menus/main_menu.html'
+DEFAULT_SUB_MENU_TEMPLATE = 'menus/sous_menu.html'
 
-DEFAULT_SECTION_MENU_TEMPLATE = 'menus/section_menu.html'
+DEFAULT_CHILDREN_MENU_TEMPLATE = 'wagtailmenus/menus/children_menu.html'
 
-DEFAULT_SUB_MENU_TEMPLATE = 'menus/sub_menu.html'
+DEFAULT_SECTION_MENU_TEMPLATE = 'wagtailmenus/menus/section_menu.html'
 
 SITE_SPECIFIC_TEMPLATE_DIRS = False
 
