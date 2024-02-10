@@ -12,7 +12,7 @@ try:
     from wagtail_modeladmin.views import (CreateView, EditView,
                                           ModelFormView, WMABaseView)
 except ModuleNotFoundError:
-    from wagtail.contrib.modeladmin.views import (CreateView, EditView,
+    from wagtail_modeladmin.views import (CreateView, EditView,
                                                   ModelFormView, WMABaseView)
 from wagtail.models import Site
 

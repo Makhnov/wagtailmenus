@@ -6,8 +6,8 @@ try:
     from wagtail_modeladmin.helpers import ButtonHelper
     from wagtail_modeladmin.options import ModelAdmin
 except ModuleNotFoundError:
-    from wagtail.contrib.modeladmin.helpers import ButtonHelper
-    from wagtail.contrib.modeladmin.options import ModelAdmin
+    from wagtail_modeladmin.helpers import ButtonHelper
+    from wagtail_modeladmin.options import ModelAdmin
 
 from wagtailmenus import views
 from wagtailmenus.conf import settings

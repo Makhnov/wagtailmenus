@@ -37,12 +37,8 @@ INSTALLED_APPS = [
     'wagtail.contrib.redirects',
     'wagtail.contrib.routable_page',
     'wagtail.contrib.settings',
+    'wagtail_modeladmin',
 ]
-
-if wagtail.VERSION >= (5, 1):
-    INSTALLED_APPS += ['wagtail_modeladmin']
-else:
-    INSTALLED_APPS += ['wagtail.contrib.modeladmin']
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
